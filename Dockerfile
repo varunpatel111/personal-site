@@ -1,7 +1,6 @@
 FROM mhart/alpine-node:11
 
-RUN apt-get update && apt-get install -y \
-	vim
+RUN apk add vim
 
 
 WORKDIR /app
