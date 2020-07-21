@@ -62,21 +62,6 @@ You may wish to fork this repository or remove my remote origin and add your own
 1. Change `NODE_ENV` to `production` in `.env`
 2. Run `npm run deploy`
 
-That's it.
-
-Please feel free to reach out to me by filing an issue or at [help@mldangelo.com](mailto:help@mldangelo.com) for help configuring your project.
-
-## Contributors
-
-* [@mldangelo](https://github.com/mldangelo)
-* [@typpo](https://github.com/typpo)
-* [@notrueblood](https://github.com/notrueblood)
-
-## Acknowledgements
-
-* Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-* Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
-
 ## License
 
 [MIT](https://github.com/mldangelo/personal-site/blob/master/LICENSE)
