@@ -1,15 +1,18 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
-  }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Academy of Engineering & Technology',
+    link: 'https://www.lcps.org/domain/23873',
+    year: '2016 - Present',
   },
+  {
+    school: 'Independence High School',
+    link: 'https://www.lcps.org/ind',
+    year: '2019 - Present',
+  }, {
+    school: 'Briar Wood High School',
+    link: 'https://www.lcps.org/bwhs',
+    year: '2016 - 2018',
+  }
 ];
 
 export default degrees;
