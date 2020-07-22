@@ -1,7 +1,7 @@
-const positions = [
+const Curriculars = [
 {
-  company: 'Mindframe Education',
-  position: 'Teaching Assistant',
+  company: 'National Honors Society',
+  position: 'President',
   link: 'https://mindframeeducation.com/',
   daterange: 'June 2018 - August 2018',
   points: [
@@ -12,8 +12,8 @@ const positions = [
   ],
 },
 {
-  company: 'ProKatchers',
-  position: 'Internship',
+  company: 'Middle School Teaching Association',
+  position: 'President',
   link: 'https://mindframeeducation.com/',
   daterange: 'June 2019 - August 2019',
   points: [
@@ -24,4 +24,4 @@ const positions = [
   ],
 }];
 
-export default positions;
+export default Curriculars;

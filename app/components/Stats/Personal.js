@@ -8,7 +8,7 @@ const PersonalStats = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date('1990-02-05T09:24:00');
+    const birthTime = new Date('2002-10-08T09:24:00');
     setData({
       ...data,
       age: {
@@ -25,7 +25,7 @@ const PersonalStats = () => {
 
   return (
     <>
-      <h3>Some stats about me</h3>
+      <h3>Who am I?</h3>
       <Table data={Object.keys(data).map((key) => data[key])} />
     </>
   );

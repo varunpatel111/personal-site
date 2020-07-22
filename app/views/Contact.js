@@ -16,22 +16,7 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'I\'ll-stop-distracting-you-now',
-  'thanks',
+  'JesangPatel2',
 ];
 
 const useInterval = (callback, delay) => {
@@ -87,18 +72,12 @@ const Contact = () => {
           </div>
         </header>
         <div className="email-at">
-          <p>Feel free to get in touch. You can email me at: </p>
-          <div
-            className="inline-container"
-            style={validateText(message) ? {} : { color: 'red' }}
-            onMouseEnter={() => setIsActive(false)}
-            onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
-          >
-            <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+          <p>Feel free to get in touch. You can email me at&nbsp;&nbsp;
+            <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
               <span>{message}</span>
-              <span>@mldangelo.com</span>
+              <span>@gmail.com</span>
             </a>
-          </div>
+            </p>
         </div>
         <ul className="icons">
           {data.map((s) => (

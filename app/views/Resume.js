@@ -9,15 +9,18 @@ import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
+import Extracurriculars from '../components/Resume/Extracurriculars';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
+import curriculars from '../data/resume/Curriculars'
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
   'Education',
   'Experience',
+  'Extracurriculars'
 ];
 
 const Resume = () => (
@@ -38,6 +41,7 @@ const Resume = () => (
       </header>
       <Education data={degrees} />
       <Experience data={positions} />
+      <Extracurriculars data={curriculars} />
     </article>
   </Main>
 );
